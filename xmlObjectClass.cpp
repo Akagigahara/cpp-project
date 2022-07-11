@@ -9,8 +9,10 @@ public:
 
 xmlObject::xmlObject(/* args */)
 {
+
 }
 
 xmlObject::~xmlObject()
 {
+    
 }
