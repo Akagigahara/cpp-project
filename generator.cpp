@@ -6,7 +6,17 @@ using namespace std;
 class generator
 {
   public:
-    void startBracket();
-    void endBracket();
+    string startBracket();
+    string endBracket();
   
 };
+
+string generator::startBracket()
+{
+  return "{";
+}
+
+string generator::endBracket()
+{
+  return "}";
+}
